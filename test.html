@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="product-info">
+    <div class="img-title-bg mt-30">
+      <img src="./images/product-mini-1-106x104.png" alt="">
+    </div>
+    <div class="text-info mt-30">
+      <p>Galia Melons</p>
+      <span>$25.00</span>
+    </div>
+  </div>
+</body>
+<style>
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.img-title-bg {
+  flex: 0 0 auto; /* Cho phần hình ảnh không co giãn */
+  margin-right: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
+  background-color: antiquewhite;
+}
+
+.text-info {
+  flex: 1 1 auto; /* Cho phần văn bản co giãn để lấp đầy khoảng trống còn lại */
+  span{
+    color: #76AA6F;
+  }
+}
+
+.img-title-bg img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của container */
+  height: auto;
+}
+</style>
+<script>
+  
+</script>
+</html>

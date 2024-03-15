@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/3419303-broccoli-fruit-green-healthy-vegetable_107405.ico">
+    <link rel="stylesheet" href="css/single_product.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap.css">
+    <link rel="stylesheet" href="./assets/jquery-ui.min.css">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+      
+     
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 navbar-logo">
+              <img src="images/logo-default-280x92.png" alt=""/>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 navbar-menu">
+                <ul class="menu-links">
+                  <li><a href="./home.html">HOME</a></li>
+                  <li class="shop-dropdown">
+                    <a href="#">SHOP</a>
+                    <div class="dropdown-content">
+                        <a href="./shop_list.html">Shop List</a>
+                        <a href="./single_product.html">Single Product</a>
+                    </div>
+                </li>
+                  <li><a href="#">GALLERY</a></li>
+                  <li><a href="#">ELEMENTS</a></li>
+                  <li class="shop-dropdown">
+                    <a href="#">BLOG</a>
+                    <div class="dropdown-content">
+                        <a href="./blog_list.html">Blog List</a>
+                        <a href="./blog_post.html">Blog Post</a>
+                    </div>
+                </li>
+                </ul>
+              </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 navbar-icons">
+              <ul class="icon-links">
+               
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="./cart_page.html"><i  class="fas fa-cart-shopping"> </i></a></li>
+              </ul>
+            </div>
+           
+            </div>
+        </div>
+       
+        <div id="mySidenav" class="sidenav">
+          <div class="container">
+            <div class="row">
+          <div class="col-12 close-x">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          </div>
+         
+          <div class=" search-text col-12">
+            <a href="#">HOME</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">SHOP</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">GALLERY</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">ELEMENTS</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">BLOG</a>
+          </div>
+          <div class="col-12 search-icon">
+            <ul>
+              
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
+              <li><a href="#"><i class="far fa-heart"></i></a></li>
+              <li><a href="#"><i class="fas fa-cart-shopping"></i></a></li>
+            </ul>
+          </div>
+          
+  
+            </div>
+          </div>
+        </div>
+    
+        <div id="main">
+          <span style="font-size: 30px; cursor: pointer;" onclick="openNav()"
+            >&#9776;
+          </span>
+        </div>
+    
+        <div id="overlay" class="overlay" onclick="closeNav()"></div>
+      </header>
+   
+
+     <!-- Banner -->
+    <div class="container-fluid">
+        <div class="banner">
+            <img src="./images/bg-blog.jpg" alt="">
+            <div class="content-sub">
+                <h5>SINGLE PRODUCT</h5>
+                
+            </div>
+            <div class="content-sub-2">
+                <p>HOME  <i class="fa-solid fa-arrow-right"></i>   SHOP   <i class="fa-solid fa-arrow-right"></i> <span>SINGLE PRODUCT</span> </p>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="image-gallery">
+                    <div class="main-image" >
+                      <img src="images/single-product-1-530x480.png" alt="Large Image" id="largeImage">
+                    </div>
+                    <div class="thumbnails">
+                      <img src="images/single-product-1-530x480.png" alt="Thumbnail 1" class="thumbnail active-thumbnail" data-image="images/single-product-1-530x480.png">
+                      <img src="images/single-product-2-530x480 (1).jpg" alt="Thumbnail 2" class="thumbnail" data-image="images/single-product-2-530x480 (1).jpg">
+                      <img src="images/single-product-3-530x480 (1).jpg" alt="Thumbnail 3" class="thumbnail" data-image="images/single-product-3-530x480 (1).jpg">
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-7">
+                <div class="content-img-gallery">
+                    <h4>Oranges</h4>
+                    <h5>$20<span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span></h5>
+                    <p class="no-p">Lorem ipsum dolor sit amet, ei impetus epicurei his, ne falli erant consequuntur est. Mei simul aperiam eu, an rebum regione ponderum mel. Facer placerat ut duo, id duis solum maiorum vis, vim autemsemper docendi cu. Pro</p>
+                    <div class="line-img">
+                    </div>
+                    <p class="p-cate p-10">Categories: <span>Citrus</span></p>
+                    <p class="p-cate">Weight:  <span>1kg</span></p>
+                    <p class="p-cate p-20">Box:  <span>60 x 60 x 90 cm</span></p>
+                    <div class="counter">
+                        <div class="counter-value">0</div>
+                        <div class="counter-buttons">
+                          <button class="increment">+</button>
+                          <button class="decrement">-</button>
+                        </div>
+                        <div class="sub-banner-button">
+                            <a href="cart_page.html" class="btn">ADD TO CART</a>
+                        </div>
+                        <!-- <div class="sub-banner-button">
+                            <button href="#">ADD TO CART</button>
+                        </div> -->
+                      </div>
+                    <div class="line-img">
+                    </div>
+                    <p class="p-share">Share <span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google-plus-g"></i></span></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- comment -->
+    <div class="container">
+        <div class="line-4"></div>
+        <div class="title-line4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-1">
+                            <a href="#"><p style="color: #76AA6F;">REVIEWS</p></a>
+                            
+                        </div>
+                        <div class="col-2 dis-de">
+                            <a  href="#"><p>ADDITIONAL INFORMATION</p></a>
+                            
+                        </div>
+                        <div class="col-9 ">
+                            <a href="#"><p>DELIVERY AND PAYMENT</p></a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+        </div>
+        <div class="title-comment">
+            <div class="row ">
+                <div class="col-1">
+                    <img src="./images/user-1-119x119.jpg" alt="">
+                </div>
+                <div class="col-11 com-ma">
+                    <h5>JANE DOE <span class="line-s">|</span>  <span class="reply">REPLY</span> <span class="nam">Nov 30, 2023</span></h5>
+                    <p>Lorem ipsum dolor sit amet, has mutat labores nostrum ei. Duo te blandit erroribus, ut sea ipsum nonumy, mel no ignota accusamus gloriatur. Id has habeo regione, explicari hendrerit reprimique cum te.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="title-blog-4">
+            <h4>Leave a Review</h4>
+        </div>
+        <form>
+            <div style="display: flex; gap: 20px;">
+              <div style="flex: 1; margin: 20px 0;">
+                <!-- <label for="inputEmail4">Email</label> -->
+                <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+              </div>
+              <div style="flex: 1; margin: 20px 0;">
+                <!-- <label for="inputPassword4">Password</label> -->
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+              </div>
+              <div style="flex: 1; margin: 20px 0;">
+                <!-- <label for="inputEmail4">Email</label> -->
+                <input type="phone" class="form-control" id="inputPhone4" placeholder="Phone">
+              </div>
+            </div>
+            <div class="form-group " style="margin-bottom: 20px;">
+              <!-- <label for="inputAddress">Address</label> -->
+              <input  type="text" class="form-control" id="inputAddress" placeholder="Message">
+            </div>
+            <div class="sub-banner-button-2">
+                <a href="#" class="btn">SEND</a>
+            </div>
+            <!-- <div class="sub-banner-button-2">
+                <button href="#">SEND</button>
+            </div> -->
+          </form>
+    
+    </div>
+    
+    <!-- Product list -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 product-section-title">
+            <!-- <p>Latest Arrivals</p> -->
+            <h5>FEATURED PRODUCTS</h5>
+            
+        </div>
+        <div class="col-12">
+            <div class="tab-content">
+                <div class="tab-pane active " id="all">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn btnshopnow">
+                                    <a href="./cart_page.html" >
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <!-- <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div> -->
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-3-238x158 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-3-238x158 (1).png" class="w-100 img2" alt="">
+                                    <!-- <div class="tag-sale">new</div> -->
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">CARROTS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <!-- <p class="old-price">$30.00</p> -->
+                                    <p class="new-price">$17.00</p>
+                                </div>
+                                <div class="col-12 pr-btn btnshopnow">
+                                    <a href="./cart_page.html" >
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-4-204x125.png" class="w-100 img1" alt="">
+                                    <img src="./images/product-4-204x125.png" class="w-100 img2" alt="">
+                                    <!-- <div class="tag-sale">sale</div> -->
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BREAD</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    
+                                    <p class="new-price">$24.00</p>
+                                </div>
+                                <div class="col-12 pr-btn btnshopnow">
+                                    <a href="./cart_page.html" >
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-5-204x156.png" class="w-100 img1" alt="">
+                                    <img src="./images/product-5-204x156.png" class="w-100 img2" alt="">
+                                    <!-- <div class="tag-sale">sale</div> -->
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">STRAWBERRIES</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <!-- <p class="old-price">$30.00</p> -->
+                                    <p class="new-price">$17.00</p>
+                                </div>
+                                <div class="col-12 pr-btn btnshopnow">
+                                    <a href="./cart_page.html" >
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane" id="vegatables">
+                    
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="fruits">
+                   
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="bread">
+                   
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="pr-item">
+                                <div class="pr-img">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img1" alt="">
+                                    <img src="./images/product-1-220x160 (1).png" class="w-100 img2" alt="">
+                                    <div class="tag-sale">sale</div>
+                                    
+                                </div>
+                                <div class="col-12">
+                                    <p class="pr-name">BANANAS</p>
+                                </div>
+                                <div class="col-12 pr-price">
+                                    <p class="old-price">$30.00</p>
+                                    <p class="new-price">$23.00</p>
+                                </div>
+                                <div class="col-12 pr-btn">
+                                    <button class="btnshopnow"><i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+
+   
+    <!-- Footer top -->
+    <div class="container-fluid bg-2">
+        <div class="container">
+            <div class="row ft-serch">
+                <div class="col-md-1 col-2 ft-serch-img">
+                    <img src="./images/email 1.png" alt="">
+                </div>
+                <div class="col-md-5 col-10 ft-serch-content">
+                    <h2>Join Our Newsletter</h2>
+                    <p>Get the latest deals, updates & more</p>
+                </div>
+                <div class="col-md-6 col-12 ft-serch-email btn-relative">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Enter your email" aria-label="Search">
+                        <button class="btn btn-ab" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Final Footer -->
+    <div class="container-fluid footer-bg">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="row contact">
+                        <div class="col-12">
+                           <img src="./images/logo-default-280x92.png" alt="">
+                        </div>
+                        
+                        
+                        <div class="col-12 content-footer">
+                            <p>Weekdays: <span>08:00am - 08:00pm</span>     </p>
+                            <p>Weekends: <span>10:00am - 06:00pm</span>     </p>
+                            
+                        </div>
+                        <div class="col-12 content-footer">
+                            <div class="line-footer"></div>
+                        </div>
+                        <div class="col-12 content-footer-3">
+                           <p>Get Social<span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google"></i></span> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 contact-2">
+                    <div class="row">
+                        
+                        <div class="col-12">
+                            <h4 class="footer-title">Our Company</h4>
+                           
+                        </div>
+                        
+                        <div class="col-12 footer-title-2">
+                           <p>Delivery</p>
+                           <p>About us</p>
+                           <p>Our stores</p>
+                           <p>My Account</p>
+                        </div>
+                        <div class="col-12">
+                            <img src="./images/pay pal.png" alt="">
+                            <img src="./images/discover.png" alt="">
+                            <img src="./images/mastercard.png" alt="">
+                            <img src="./images/visa.png" alt="">
+                            <img src="./images/american.png" alt="">
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 contact-2">
+                    <div class="row">
+                        
+                        <div class="col-12">
+                            <h4 class="footer-title">Contacts</h4>
+                           
+                        </div>
+                        
+                        <div class="col-1 footer-title-2">
+                            <div class="row">
+                                <div class="col contact-info-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 footer-title-2">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <p>12 Fake Street,New York</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-1 ">
+                            <div class="row">
+                                <div class="col contact-info-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <p>+1 (844) 123 456 78</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-1 ">
+                            <div class="row">
+                                <div class="col contact-info-1">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <p>support.goaltheme.com</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                
+               
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+       const largeImage = document.getElementById('largeImage');
+       const thumbnails = document.querySelectorAll('.thumbnail');
+     
+       thumbnails.forEach(function(thumbnail) {
+         thumbnail.addEventListener('click', function() {
+           const activeThumbnails = document.querySelectorAll('.active-thumbnail');
+           activeThumbnails.forEach(function(activeThumbnail) {
+             activeThumbnail.classList.remove('active-thumbnail');
+           });
+     
+           this.classList.add('active-thumbnail');
+     
+           const imageUrl = this.getAttribute('data-image');
+           largeImage.setAttribute('src', imageUrl);
+         });
+       });
+     
+       // Set the first thumbnail same as the main image
+       const firstThumbnail = document.querySelector('.thumbnails .thumbnail');
+       const mainImageUrl = largeImage.getAttribute('src');
+       firstThumbnail.setAttribute('src', mainImageUrl);
+       firstThumbnail.setAttribute('data-image', mainImageUrl);
+     });
+     </script>
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const counterValue = document.querySelector('.counter-value');
+        const incrementBtn = document.querySelector('.increment');
+        const decrementBtn = document.querySelector('.decrement');
+      
+        let count = 0;
+      
+        function updateCounter(value) {
+          counterValue.textContent = value;
+        }
+      
+        incrementBtn.addEventListener('click', function() {
+          count++;
+          updateCounter(count);
+        });
+      
+        decrementBtn.addEventListener('click', function() {
+          if (count > 0) {
+            count--;
+            updateCounter(count);
+          }
+        });
+      });
+      </script>
+
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog List</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/3419303-broccoli-fruit-green-healthy-vegetable_107405.ico">
+    <link rel="stylesheet" href="css/blog_list.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap.css">
+    <link rel="stylesheet" href="./assets/jquery-ui.min.css">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+      
+     
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 navbar-logo">
+              <img src="images/logo-default-280x92.png" alt=""/>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 navbar-menu">
+              <ul class="menu-links">
+                <li><a href="./home.html">HOME</a></li>
+                <li class="shop-dropdown">
+                    <a href="#">SHOP</a>
+                    <div class="dropdown-content">
+                        <a href="./shop_list.html">Shop List</a>
+                        <a href="./single_product.html">Single Product</a>
+                    </div>
+                </li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">ELEMENTS</a></li>
+                    <li class="shop-dropdown">
+                        <a href="#">BLOG</a>
+                        <div class="dropdown-content">
+                            <a href="./blog_list.html">Blog List</a>
+                            <a href="./blog_post.html">Blog Post</a>
+                        </div>
+                    </li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 navbar-icons">
+              <ul class="icon-links">
+               
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="./cart_page.html"><i  class="fas fa-cart-shopping"> </i></a></li>
+              </ul>
+            </div>
+           
+            </div>
+        </div>
+       
+        <div id="mySidenav" class="sidenav">
+          <div class="container">
+            <div class="row">
+          <div class="col-12 close-x">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          </div>
+         
+          <div class=" search-text col-12">
+            <a href="#">HOME</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">SHOP</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">GALLERY</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">ELEMENTS</a>
+          </div>
+          <div class=" search-text col-12">
+            <a href="#">BLOG</a>
+          </div>
+          <div class="col-12 search-icon">
+            <ul>
+              
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
+              <li><a href="#"><i class="far fa-heart"></i></a></li>
+              <li><a href="#"><i class="fas fa-cart-shopping"></i></a></li>
+            </ul>
+          </div>
+          
+  
+            </div>
+          </div>
+        </div>
+    
+        <div id="main">
+          <span style="font-size: 30px; cursor: pointer;" onclick="openNav()"
+            >&#9776;
+          </span>
+        </div>
+    
+        <div id="overlay" class="overlay" onclick="closeNav()"></div>
+      </header>
+   
+
+     <!-- Banner -->
+    <div class="container-fluid">
+        <div class="banner">
+            <img src="./images/bg-shop.jpg" alt="">
+            <div class="content-sub">
+                <h5>BLOG LIST</h5>
+                
+            </div>
+            <div class="content-sub-2">
+                <p>HOME  <i class="fa-solid fa-arrow-right"></i>   BLOG   <i class="fa-solid fa-arrow-right"></i> <span>BLOG LIST</span> </p>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+    <!-- List -->
+    <div class="container blog-list">
+        <div class="row ">
+            <div class="col-md-8 ">
+                <div class="blog-list-content">
+                    <p >organic food   <span>| August 9, 2023</span></p>
+                    <h5>Great bulk recipes to help use all your organic vegetables</h5>
+                    <img src="./images/post2.jpg" alt="">
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</h4>
+                    <div class="sub-banner-button">
+                        <a href="./blog_post.html" class="button-link">READ MORE</a>
+                    </div>
+                </div>
+                <div class="blog-list-content" style="margin-top: 70px;">
+                    <p >organic food   <span>| August 9, 2023</span></p>
+                    <h5>Great bulk recipes to help use all your organic vegetables</h5>
+                    <img src="./images/post1.jpg" alt="">
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</h4>
+                    <div class="sub-banner-button">
+                        <a href="./blog_post.html" class="button-link">READ MORE</a>
+                    </div>
+                </div>
+                <div class="blog-list-content">
+                    <h3><a href="#"><span>1</span>  2</a><i class="fa-solid fa-angles-right"></i></h3>
+                </div>
+                
+            </div>
+            <div class="col-md-1">
+                <div class="line">
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="blog-post">
+                    <img src="./images/user-4-123x123.jpg" alt="">
+                    <div class="col-12 blog-post-content">
+                        
+                        <h4>CAROLINE LOPEZ</h4>
+                        <p class="b-p">I am the leading editor and blogger at Farm website.</p>
+                        
+                    
+                    </div>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Search blog . . .">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                  </div>
+                
+
+                <div class="title-blog-3">
+                    <h4>CATEGORIES</h4>
+                    <div class="line-3"></div>
+                    <a href="#"><p>New <span>(18)</span></p></a>
+                    <a href="#"><p>Organic Food <span>(9)</span></p></a>
+                    <a href="#"><p>Health <span>(5)</span></p></a>
+                    <a href="#"><p>Smoothies <span>(8)</span></p></a>
+                    
+                    
+                </div>
+
+                <div class="title-blog-3">
+                    <h4>LATEST POSTS</h4>
+                    <div class="line-3"></div>
+                    <div class="img-title">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="./images/post-13-420x368.jpg" alt="">
+                            </div>
+                            <div class="col-md-7">
+                                <a href="./blog_post.html"><p>Why Organic Food is Full of Benefits</p></a>
+                                <span>March 15, 2023</span>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./images/post-14-420x368.jpg" alt="">
+                            </div>
+                            <div class="col-md-7">
+                                <a href="./blog_post.html"> <p>Why Organic Food is Full of Benefits</p></a>
+                               
+                                <span>March 17, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="title-blog-3">
+                    <h4>POPULAR TAGS</h4>
+                    <div class="line-3"></div>
+                    <div class="tit-space">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="#"> <p>FRUITS</p></a>
+                               
+                            </div>
+                            <div class="col-md-5">
+                                <a href="#"><p>VEGATABLES</p></a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#"> <p>DRINKS</p></a>
+                               
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#"><p>ORGANIC</p></a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#"> <p>FOOD</p></a>
+                               
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#"><p>SMOOTHIES</p></a>
+                                
+                            </div>
+                        </div>
+                        
+                       
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="title-blog-3">
+                    <h4>ARCHIVES</h4>
+                    <div class="line-3"></div>
+                    <a href="#"><p><i class="fa-solid fa-circle"></i>March 2023</p></a>
+                    <a href="#"><p><i class="fa-solid fa-circle"></i>February 2023</p></a>
+                    <a href="#"><p><i class="fa-solid fa-circle"></i>January 2023</p></a>
+                    <a href="#"><p><i class="fa-solid fa-circle"></i>December 2023</p></a>
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+                
+
+
+           
+        </div>
+    </div>
+    <!-- Footer top -->
+    <div class="container-fluid bg-2">
+        <div class="container">
+            <div class="row ft-serch">
+                <div class="col-md-1 col-2 ft-serch-img">
+                    <img src="./images/email 1.png" alt="">
+                </div>
+                <div class="col-md-5 col-10 ft-serch-content">
+                    <h2>Join Our Newsletter</h2>
+                    <p>Get the latest deals, updates & more</p>
+                </div>
+                <div class="col-md-6 col-12 ft-serch-email btn-relative">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Enter your email" aria-label="Search">
+                        <button class="btn btn-ab" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Final Footer -->
+    <div class="container-fluid footer-bg">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="row contact">
+                        <div class="col-12">
+                           <img src="./images/logo-default-280x92.png" alt="">
+                        </div>
+                        
+                        
+                        <div class="col-12 content-footer">
+                            <p>Weekdays: <span>08:00am - 08:00pm</span>     </p>
+                            <p>Weekends: <span>10:00am - 06:00pm</span>     </p>
+                            
+                        </div>
+                        <div class="col-12 content-footer">
+                            <div class="line-footer"></div>
+                        </div>
+                        <div class="col-12 content-footer-3">
+                           <p>Get Social<span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google"></i></span> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 contact-2">
+                    <div class="row">
+                        
+                        <div class="col-12">
+                            <h4 class="footer-title">Our Company</h4>
+                           
+                        </div>
+                        
+                        <div class="col-12 footer-title-2">
+                           <p>Delivery</p>
+                           <p>About us</p>
+                           <p>Our stores</p>
+                           <p>My Account</p>
+                        </div>
+                        <div class="col-12">
+                            <img src="./images/pay pal.png" alt="">
+                            <img src="./images/discover.png" alt="">
+                            <img src="./images/mastercard.png" alt="">
+                            <img src="./images/visa.png" alt="">
+                            <img src="./images/american.png" alt="">
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 contact-2">
+                    <div class="row">
+                        
+                        <div class="col-12">
+                            <h4 class="footer-title">Contacts</h4>
+                           
+                        </div>
+                        
+                        <div class="col-1 footer-title-2">
+                            <div class="row">
+                                <div class="col contact-info-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 footer-title-2">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <p>12 Fake Street,New York</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-1 ">
+                            <div class="row">
+                                <div class="col contact-info-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <p>+1 (844) 123 456 78</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-1 ">
+                            <div class="row">
+                                <div class="col contact-info-1">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <p>support.goaltheme.com</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                
+               
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        
+          // Mở nội dung của button đầu tiên khi trang được tải lần đầu
+          if (i === 0) {
+            coll[i].classList.add("active");
+            coll[i].nextElementSibling.style.display = "block";
+          }
+        }
+        </script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
+
+
+</body>
+</html>
